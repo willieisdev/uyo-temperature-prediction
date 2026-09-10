@@ -1,0 +1,37 @@
+{
+  "LinearRegression": {
+    "MAE": 2.2086,
+    "MSE": 7.7979,
+    "RMSE": 2.7925,
+    "R2": 0.6357
+  },
+  "RandomForest": {
+    "MAE": 1.898,
+    "MSE": 6.2169,
+    "RMSE": 2.4934,
+    "R2": 0.7096
+  },
+  "XGBoost": {
+    "MAE": 1.9113,
+    "MSE": 6.003,
+    "RMSE": 2.4501,
+    "R2": 0.7196
+  },
+  "XGBoost_best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 5,
+    "n_estimators": 150,
+    "reg_alpha": 4,
+    "reg_lambda": 1,
+    "subsample": 0.8
+  },
+  "StackingEnsemble": {
+    "MAE": 1.8425,
+    "MSE": 5.6714,
+    "RMSE": 2.3815,
+    "R2": 0.735
+  },
+  "n_train": 14324,
+  "n_test": 3582,
+  "best_model": "StackingEnsemble"
+}
